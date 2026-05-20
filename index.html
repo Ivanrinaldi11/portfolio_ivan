@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ivanilson Rinaldi</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav>
+
+    <h2>
+      Ivanilson Rinaldi
+    </h2>
+
+    <div class="nav-right">
+
+      <ul>
+
+        <li>
+          <a href="#sobre" data-pt="Sobre" data-en="About">
+            Sobre
+          </a>
+        </li>
+
+        <li>
+          <a href="#projetos" data-pt="Projetos" data-en="Projects">
+            Projetos
+          </a>
+        </li>
+
+        <li>
+          <a href="#contato" data-pt="Contato" data-en="Contact">
+            Contato
+          </a>
+        </li>
+
+      </ul>
+
+      <!-- LANGUAGE -->
+
+      <div class="language-toggle">
+
+        <button onclick="changeLanguage('pt')">
+          🇧🇷 PT
+        </button>
+
+        <button onclick="changeLanguage('en')">
+          🌎 EN
+        </button>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+
+  <header>
+
+    <div class="hero-left">
+
+      <span
+        class="tag"
+
+        data-pt="Desenvolvedor Web • QA"
+        data-en="Web Developer • QA"
+      >
+        Desenvolvedor Web • QA
+      </span>
+
+      <h1
+
+        data-pt="Desenvolvendo aplicações modernas com foco em qualidade, organização e experiência do usuário."
+
+        data-en="Building modern applications focused on quality, organization and user experience."
+
+      >
+
+        Desenvolvendo aplicações modernas com foco em qualidade, organização e experiência do usuário.
+
+      </h1>
+
+      <p
+
+        data-pt="Estudante de Análise e Desenvolvimento de Sistemas com experiência prática em desenvolvimento web, APIs REST e testes de software."
+
+        data-en="Systems Analysis and Development student with practical experience in web development, REST APIs and software testing."
+
+      >
+
+        Estudante de Análise e Desenvolvimento de Sistemas com experiência prática
+        em desenvolvimento web, APIs REST e testes de software.
+
+      </p>
+
+      <div class="buttons">
+
+        <a
+
+          href="#projetos"
+
+          class="btn-dark"
+
+          data-pt="Ver Projetos"
+          data-en="View Projects"
+
+        >
+
+          Ver Projetos
+
+        </a>
+
+        <a
+          href="https://github.com/ivanrinaldi11"
+          target="_blank"
+          class="btn-light"
+        >
+          GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- SOBRE -->
+
+  <section id="sobre">
+
+    <div class="section-title">
+
+      <span
+        data-pt="SOBRE"
+        data-en="ABOUT"
+      >
+        SOBRE
+      </span>
+
+      <h2
+
+        data-pt="Desenvolvimento com lógica e qualidade"
+
+        data-en="Development focused on logic and quality"
+
+      >
+
+        Desenvolvimento com lógica e qualidade
+
+      </h2>
+
+    </div>
+
+    <p
+
+      class="about-text"
+
+      data-pt="Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e qualidade de software (QA). Tenho experiência prática no desenvolvimento de aplicações utilizando HTML, CSS, JavaScript e Node.js, além de atuação em testes manuais, documentação de bugs e validação de funcionalidades. Desenvolvi projetos próprios para aplicar conhecimentos técnicos, incluindo aplicações web, APIs REST e documentação de testes em sistemas reais, buscando sempre evolução contínua e boas práticas de desenvolvimento."
+
+      data-en="I am a Systems Analysis and Development student focused on web development and software quality assurance (QA). I have practical experience developing applications using HTML, CSS, JavaScript and Node.js, as well as manual testing, bug documentation and feature validation. I have built personal projects to apply technical knowledge, including web applications, REST APIs and software testing documentation, always focusing on continuous improvement and development best practices."
+
+    >
+
+      Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em
+      desenvolvimento web e qualidade de software (QA).
+
+      Tenho experiência prática no desenvolvimento de aplicações utilizando
+      HTML, CSS, JavaScript e Node.js, além de atuação em testes manuais,
+      documentação de bugs e validação de funcionalidades.
+
+      Desenvolvi projetos próprios para aplicar conhecimentos técnicos,
+      incluindo aplicações web, APIs REST e documentação de testes em sistemas reais,
+      buscando sempre evolução contínua e boas práticas de desenvolvimento.
+
+    </p>
+
+  </section>
+
+  <!-- PROJETOS -->
+
+  <section id="projetos">
+
+    <div class="section-title">
+
+      <span
+        data-pt="PROJETOS"
+        data-en="PROJECTS"
+      >
+        PROJETOS
+      </span>
+
+      <h2
+        data-pt="Aplicações e testes desenvolvidos"
+        data-en="Applications and testing projects"
+      >
+        Aplicações e testes desenvolvidos
+      </h2>
+
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- CAREERFLOW -->
+
+      <article class="project-card featured-project">
+
+        <div class="project-top">
+
+          <span
+            class="project-category"
+            data-pt="SaaS • Web App"
+            data-en="SaaS • Web App"
+          >
+            SaaS • Web App
+          </span>
+
+          <span class="featured-badge">
+            Featured
+          </span>
+
+        </div>
+
+        <h3>
+          CareerFlow
+        </h3>
+
+        <p
+
+          data-pt="Plataforma moderna para gerenciamento de candidaturas de emprego com dashboard interativo, sistema multilíngue (PT/EN), estatísticas em tempo real, pesquisa dinâmica e persistência de dados utilizando LocalStorage."
+
+          data-en="Modern platform for managing job applications featuring an interactive dashboard, multilingual system (PT/EN), real-time statistics, dynamic search and LocalStorage persistence."
+
+        >
+
+          Plataforma moderna para gerenciamento de candidaturas de emprego com dashboard interativo, sistema multilíngue (PT/EN), estatísticas em tempo real, pesquisa dinâmica e persistência de dados utilizando LocalStorage.
+
+        </p>
+
+        <div class="project-tech">
+
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>UX/UI</span>
+          <span>Responsive</span>
+
+        </div>
+
+        <div class="project-links">
+
+          <a
+            href="https://ivanrinaldi11.github.io/job-tracker/"
+            target="_blank"
+
+            data-pt="Live Demo"
+            data-en="Live Demo"
+          >
+
+            Live Demo
+
+          </a>
+
+          <a
+            href="https://github.com/Ivanrinaldi11/job-tracker"
+            target="_blank"
+
+            data-pt="GitHub"
+            data-en="GitHub"
+          >
+
+            GitHub
+
+          </a>
+
+        </div>
+
+      </article>
+
+      <!-- SMART FINANCE -->
+
+      <article class="project-card">
+
+        <span class="project-category">
+          Front-end
+        </span>
+
+        <h3>
+          Smart Finance
+        </h3>
+
+        <p
+
+          data-pt="Aplicação de controle financeiro com gerenciamento de entradas, saídas e cálculo automático de saldo."
+
+          data-en="Financial control application with income, expenses and automatic balance calculation."
+
+        >
+
+          Aplicação de controle financeiro com gerenciamento de entradas,
+          saídas e cálculo automático de saldo.
+
+        </p>
+
+        <a
+          href="https://ivanrinaldi11.github.io/smart-finance/"
+          target="_blank"
+
+          data-pt="Acessar projeto"
+          data-en="View project"
+
+        >
+
+          Acessar projeto
+
+        </a>
+
+      </article>
+
+      <!-- API -->
+
+      <article class="project-card">
+
+        <span class="project-category">
+          Back-end
+        </span>
+
+        <h3>
+          Orders API
+        </h3>
+
+        <p
+
+          data-pt="API REST construída com Node.js e Express implementando operações CRUD para gerenciamento de pedidos."
+
+          data-en="REST API built with Node.js and Express implementing CRUD operations for order management."
+
+        >
+
+          API REST construída com Node.js e Express implementando operações CRUD
+          para gerenciamento de pedidos.
+
+        </p>
+
+        <a
+          href="https://github.com/Ivanrinaldi11/orders-api-nodejs"
+          target="_blank"
+
+          data-pt="Ver código"
+          data-en="View code"
+
+        >
+
+          Ver código
+
+        </a>
+
+      </article>
+
+      <!-- QA -->
+
+      <article class="project-card">
+
+        <span class="project-category">
+          QA
+        </span>
+
+        <h3>
+          Projeto Teste de Software Shift
+        </h3>
+
+        <p
+
+          data-pt="Projeto de testes aplicado em sistema laboratorial incluindo análise de falhas, documentação de bugs e propostas de melhoria."
+
+          data-en="Software testing project applied to a laboratory system including bug analysis and improvement proposals."
+
+        >
+
+          Projeto de testes aplicado em sistema laboratorial incluindo análise de falhas,
+          documentação de bugs e propostas de melhoria.
+
+        </p>
+
+        <a
+          href="https://github.com/Ivanrinaldi11/projeto-teste-software-shift"
+          target="_blank"
+
+          data-pt="Ver projeto"
+          data-en="View project"
+
+        >
+
+          Ver projeto
+
+        </a>
+
+      </article>
+
+    </div>
+
+  </section>
+
+  <!-- CONTATO -->
+
+  <section id="contato">
+
+    <div class="section-title">
+
+      <span
+        data-pt="CONTATO"
+        data-en="CONTACT"
+      >
+        CONTATO
+      </span>
+
+      <h2
+        data-pt="Vamos conversar"
+        data-en="Let's talk"
+      >
+        Vamos conversar
+      </h2>
+
+    </div>
+
+    <div class="contact-box">
+
+      <p>
+        📧 ivanrinaldi980@gmail.com
+      </p>
+
+      <p>
+        💻 github.com/ivanrinaldi11
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 Ivanilson Rinaldi
+    </p>
+
+  </footer>
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
